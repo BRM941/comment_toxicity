@@ -6,10 +6,13 @@ name = "pypi"
 [packages]
 flask = "*"
 requests = "*"
-transformers = {extras = ["torch"], version = "*"}
+transformers = "*"
 torch = "*"
 numpy = "*"
 pandas = "*"
+cython = "*"
+scipy = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

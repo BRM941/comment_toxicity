@@ -49,9 +49,9 @@ if(__name__ == "__main__"):
     torch.manual_seed(0)
 
     try:
-        df = pd.read_csv("./comment_toxicity/toxicity_en.csv")
-    except Exception:
-        print(Exception)
+        df = pd.read_csv("./toxicity_en.csv")
+    except Exception as e:
+        print(e)
 
 
     tokenizer = GPT2Tokenizer.from_pretrained('gpt2')

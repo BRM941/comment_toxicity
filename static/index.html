@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toxicity Detector</title>
+  </head>
+  <body>
+    <main>
+        <h1>Comment Toxicity Detector</h1>
+        <p> Input a comment copied from any comment section to determine whether it is toxic or not. Confidence is rated on a scale of 0 to 1 where 0 is toxic and 1 is non-toxic.</p>
+        <form method="POST">
+            <textarea name="comment" rows="10" cols="100"></textarea>
+            <input type="submit">
+        </form>
+        {% if isToxic == True %}
+          <p>Toxic Comment Detected</p>
+          <p>Confidence: {{prediction}}</p>
+        {% else %}
+        {% endif %}
+        {% if isToxic == False %}
+        <p>Comment Not Found To Be Toxic</p>
+        <p>Confidence: {{prediction}}</p>
+        {% else %}
+        {% endif %}
+    </main>
+    
+  </body>
+</html>
