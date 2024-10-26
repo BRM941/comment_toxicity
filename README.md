@@ -19,11 +19,13 @@ pip install pipenv
 All the other frameworks used in this program can be downloaded using the pipfile. The frameworks used in this program include Pytorch, Pandas, Flask, and the 🤗 Transformers package.
 
 
-![Python logo](https://www.python.org/static/img/python-logo.png)
-![Pytorch logo](https://imgs.search.brave.com/pL5Cz0-sW-GQG4PMOE8b76GUmcAcpTIdxn8-tkcHPSc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9weXRv/cmNoLm9yZy9hc3Nl/dHMvaW1hZ2VzL2xv/Z28td2hpdGUuc3Zn)
-![Pandas logo](https://pandas.pydata.org/static/img/pandas_white.svg)
-![Flask logo](https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png)
-![Huggingface logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)
+
+<img src="https://www.python.org/static/img/python-logo.png" alt="Python logo" width="300" height="100">
+<img src="https://pytorch.org/assets/images/logo-white.svg" alt="Pytorch logo" width="300" height="100">
+<img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas logo" width="300" height="100">
+<img src="https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png" alt="Flask logo" width="300" height="100">
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Huggingface logo" width="100" height="100">
+
 
 ### How to run this program
 
