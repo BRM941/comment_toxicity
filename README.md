@@ -3,13 +3,12 @@
 
 ### Description
 
-This comment toxicity detector can detect if a comment pasted into its input is toxic or not. It also gives a confidence level on a scale of 0 to 1 where  0 means that the AI is confident that the comment is toxic and 1 means that the comment is confident that  
-the comment is not toxic. A toxic comment in this case is defined as being hateful, violent, using exessive swearing, or other comments that may be against the terms of service for major social media sites.
+This comment toxicity detector can detect if a comment pasted into its input is toxic or not. It also gives a confidence level on a scale of 0 to 1 where  0 means that the AI is confident that the comment is toxic and 1 means that the comment is confident that the comment is not toxic. A toxic comment in this case is defined as being hateful, violent, using excessive swearing, or other comments that may be against the terms of service for major social media sites.
 
 ### Requirements
 
 - pip: package installer for python
-- pipenv: virtualenv tool for installing dpendencies, you can download it with 
+- pipenv: virtualenv tool for installing dependencies, you can download it with 
 ```bash
 pip install pipenv
 ```
